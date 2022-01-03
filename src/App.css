@@ -1,38 +1,87 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23252c;
+}
+
 .App {
+  background: #1a1b21;
+  width: 317px;
+  margin-top: 44px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.info__pic {
+  width: 317px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.info__name {
+  color: #fff;
+  margin-top: 21px;
+  font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.info__job-title {
+  font-size: 12.8px;
+  font-weight: 400;
+  color: #f3bf99;
+  margin-top: 6.2px;
+}
+
+.info__link {
+  font-size: 10.24px;
+  color: #f5f5f5;
+  font-weight: 400;
+  margin-top: 8.8px;
+}
+
+.btn {
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  display: inline-block;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-decoration: none;
+  line-height: 34px;
+  color: #374151;
+  font-weight: 700;
 }
 
-.App-link {
-  color: #61dafb;
+.info__buttons--email {
+  background: #d1d5db;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info__buttons--linkedin {
+  background: #5093e2;
+  margin-top: 6px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.info__mail-logo {
+  margin-right: 6px;
+  line-height: 16px;
+  position: relative;
+  top: 5px;
+}
+
+.info__linkedin-logo {
+  width: 16px;
+  margin-right: 6px;
 }
