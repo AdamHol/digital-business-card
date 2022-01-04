@@ -13,7 +13,10 @@ body {
   margin-top: 44px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px;
 }
+
+/* INFO */
 
 .info {
   text-align: center;
@@ -21,6 +24,7 @@ body {
 
 .info__pic {
   width: 317px;
+  border-radius: 10px 10px 0 0;
 }
 
 .info__name {
@@ -41,6 +45,7 @@ body {
   color: #f5f5f5;
   font-weight: 400;
   margin-top: 8.8px;
+  margin-bottom: 5px;
 }
 
 .btn {
@@ -57,7 +62,7 @@ body {
 }
 
 .info__buttons--email {
-  background: #d1d5db;
+  background: #f4f6f8;
   justify-content: center;
   align-items: center;
   margin-right: 20px;
@@ -84,4 +89,58 @@ body {
 .info__linkedin-logo {
   width: 16px;
   margin-right: 6px;
+}
+
+/* ABOUT */
+
+.about {
+  padding: 40px;
+}
+
+.about__title {
+  color: #f5f5f5;
+  font-size: 18px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+.about__text {
+  color: #dcdcdc;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/* INTERESTS */
+
+.interests {
+  padding: 0 40px 40px 40px;
+}
+
+.interests__title {
+  color: #f5f5f5;
+  font-size: 18px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+.interests__text {
+  color: #dcdcdc;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/* FOOTER */
+
+.footer {
+  background: #161619;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 0 0 10px 10px;
+  padding: 15px 20px;
+}
+
+.footer > a > img {
+  width: 30px;
+  filter: invert(50%);
 }

@@ -1,14 +1,11 @@
 import EmailLogo from "../images/email-icon.svg";
 import LinkedinLogo from "../images/linkedin-icon.svg";
+import Picture from "../images/ja.png";
 
 function Info() {
   return (
     <div className='info'>
-      <img
-        src='https://this-person-does-not-exist.com/img/avatar-a5bdb2025cd107eaa0625221a7e74256.jpg'
-        alt='fake person image'
-        className='info__pic'
-      />
+      <img src={Picture} alt='fake person image' className='info__pic' />
       <h1 className='info__name'>Adam H</h1>
       <h3 className='info__job-title'>Future Frontend Developer</h3>
       <h4 className='info__link'>Adamh.website</h4>

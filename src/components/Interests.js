@@ -1,8 +1,10 @@
 function Interests() {
   return (
-    <div>
-      <h2>Interests</h2>
-      <p>Something about my interests?! :0</p>
+    <div className='interests'>
+      <h2 className='interests__title'>Interests</h2>
+      <p className='interests__text'>
+        Food expert. Music fan. Reader. Travel geek. Internet fanatic
+      </p>
     </div>
   );
 }
